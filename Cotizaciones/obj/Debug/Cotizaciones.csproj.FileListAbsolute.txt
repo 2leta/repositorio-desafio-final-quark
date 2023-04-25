@@ -1,0 +1,11 @@
+O:\RepositoriosGit\ProyectoPrueba\Cotizaciones\Cotizaciones\obj\Debug\Cotizaciones.csproj.AssemblyReference.cache
+O:\RepositoriosGit\ProyectoPrueba\Cotizaciones\Cotizaciones\obj\Debug\Cotizaciones.csproj.SuggestedBindingRedirects.cache
+O:\RepositoriosGit\ProyectoPrueba\Cotizaciones\Cotizaciones\obj\Debug\Cotizaciones.Properties.Resources.resources
+O:\RepositoriosGit\ProyectoPrueba\Cotizaciones\Cotizaciones\obj\Debug\Cotizaciones.csproj.GenerateResource.cache
+O:\RepositoriosGit\ProyectoPrueba\Cotizaciones\Cotizaciones\obj\Debug\Cotizaciones.csproj.CoreCompileInputs.cache
+O:\RepositoriosGit\ProyectoPrueba\Cotizaciones\Cotizaciones\obj\Debug\Cotizaciones.Form1.resources
+O:\RepositoriosGit\ProyectoPrueba\Cotizaciones\Cotizaciones\bin\Debug\Cotizaciones.exe.config
+O:\RepositoriosGit\ProyectoPrueba\Cotizaciones\Cotizaciones\bin\Debug\Cotizaciones.exe
+O:\RepositoriosGit\ProyectoPrueba\Cotizaciones\Cotizaciones\bin\Debug\Cotizaciones.pdb
+O:\RepositoriosGit\ProyectoPrueba\Cotizaciones\Cotizaciones\obj\Debug\Cotizaciones.exe
+O:\RepositoriosGit\ProyectoPrueba\Cotizaciones\Cotizaciones\obj\Debug\Cotizaciones.pdb
