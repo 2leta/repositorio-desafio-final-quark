@@ -36,7 +36,7 @@ namespace Cotizaciones
 
             return retorno.Stock(); 
         }
-        public Camisa ChequearCamisas(Camisa camisa)
+        private Camisa ChequearCamisas(Camisa camisa)
         {
             Camisa cam=null;
             foreach(Camisa var in tiendaList)
@@ -47,7 +47,7 @@ namespace Cotizaciones
             return cam;
            
         }
-        public Pantalon ChequearPantalon(Pantalon pantalon)
+        private Pantalon ChequearPantalon(Pantalon pantalon)
         {
            Pantalon pant = null;
             foreach (Pantalon var in tiendaList)
