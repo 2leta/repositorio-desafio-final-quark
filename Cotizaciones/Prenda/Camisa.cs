@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cotizaciones
 {
-    internal class Camisa : Prenda
+    public class Camisa : Prenda
     {
         public enum TipoCamisas { mangaCorta, mangaLarga };
         public enum TipoCuello {cuelloMao,cuelloComun};
@@ -18,7 +18,7 @@ namespace Cotizaciones
         {
             TCamisa = tipoDeCamisa;
             TCuello= tipoDeCuello;
-            calidadCamisa= TipoCalidad;
+            Calidad= TipoCalidad;
             stock= Stock;
             precioUnitario= PrecioUnitario;
             Tprenda = TipoPrenda.Camisa;

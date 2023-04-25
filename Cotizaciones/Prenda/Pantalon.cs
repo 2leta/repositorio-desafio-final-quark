@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cotizaciones
 {
-    internal class Pantalon:Prenda
+    public class Pantalon:Prenda
     {
         public enum tipoPantalon { comun,chupin};
        public tipoPantalon TPantalon;
@@ -16,7 +16,7 @@ namespace Cotizaciones
             TPantalon= tipoDePantalon;
             this.stock = stock;
             precioUnitario= PrecioUnitario;
-            
+            this.Calidad= Calidad;
         }
     }
 }
