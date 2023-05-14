@@ -25,9 +25,11 @@ namespace Cotizaciones
         public string Apellido { get => apellido; set => apellido = value; }
         public int Codigo { get => codigo; set => codigo = value; }
 
-        public void Cotizar(string nombre)
+        public void Cotizar(Prenda prenda,Vendedor vend,int unidades)
         {
-            Cotizacion cot;
+            Cotizacion cot = new Cotizacion(prenda, vend, unidades);
+            cot.Cotizar();
+            RegistrarCotizacion(cot);
         }
         public void RegistrarCotizacion(Cotizacion cot)
         {

@@ -14,12 +14,7 @@ namespace Cotizaciones
         [STAThread] 
      
         static void Main()
-        {
-            Camisa camisa = new Camisa(Camisa.TipoCamisas.mangaCorta,Camisa.TipoCuello.cuelloMao,Camisa.calidad.standard,100,2023);
-            List<Prenda> stock;
-            stock = new List<Prenda>();
-            stock.Add(camisa);
-             
+        {                                 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

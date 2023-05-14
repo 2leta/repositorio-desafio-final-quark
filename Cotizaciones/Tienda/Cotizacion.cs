@@ -14,22 +14,22 @@ namespace Cotizaciones
         Prenda prendaCotizada;
         Camisa PrendaCotCamisa;
         int CodigoVendedor;
-        public Cotizacion(Prenda prenda,Vendedor vendedor, int Unidades) 
+       public Cotizacion(Prenda prenda,Vendedor vendedor, int Unidades) 
         {
             CodigoVendedor = vendedor.Codigo;
             if (vendedor.Historial.Count == 0) { NroID = 0; } else { NroID = vendedor.Historial.Count; }
             prendaCotizada = prenda;
            fechaHora= DateTime.Now.ToString();
+            unidades= Unidades;
 
         }
-        public float Cotizar() {
-            float precioFinal;
-         if(prendaCotizada.Tprenda == Prenda.TipoPrenda.Camisa)
-            {precioFinal= CotizarCamisa((Camisa)prendaCotizada);} 
-         else 
-            { precioFinal = CotizarPantalon((Pantalon)prendaCotizada); }
-            if (prendaCotizada.Calidad == Prenda.calidad.premium) { return (precioFinal * 0.3f) + precioFinal; }
-            else { return precioFinal; }
+        public float Cotizar() 
+        {
+         float precioFinal;
+         if(prendaCotizada.Tprenda == Prenda.TipoPrenda.Camisa)precioFinal= CotizarCamisa((Camisa)prendaCotizada); 
+         else precioFinal = CotizarPantalon((Pantalon)prendaCotizada); 
+         if (prendaCotizada.Calidad == Prenda.calidad.premium)return ((precioFinal * 0.3f) + precioFinal)*unidades; 
+         else return (precioFinal)*unidades;
             
         }
         private float CotizarCamisa(Camisa camisa) 
